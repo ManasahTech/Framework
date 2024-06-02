@@ -1,0 +1,25 @@
+{
+    "name": "manasahtech/framework",
+    "description": "ManasahTech is a robust and intuitive PHP web framework. It provides developers with a set of powerful tools and features that make building complex web applications a streamlined and efficient process, even for those new to PHP.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Manasahtech\\Frameword\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RuyahTech, SLLC",
+            "email": "manasahtech@ruyahtech.com"
+        },
+        {
+            "name": "Abdullah Sowailem",
+            "email": "abdullah.sowailem@gmail.com"
+        }
+    ],
+    "require": {
+        "manasahtech/container": "^1.0",
+        "manasahtech/data": "^1.0"
+    }
+}
